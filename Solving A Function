@@ -1,0 +1,29 @@
+  System.out.println("f(x)=((20.22+7x)/25+0.922x)+70+0.5x\n" + "Given that: ");
+    System.out.println("x=0.5\n" + "x=0.77\n" + "x=0.99"); //value of x sa problem 1
+    System.out.println("\nSolve for:x= 0.5\nf(x)=((20.22+7x)/25+0.922x)+70+0.5x"); //Copy this for the given para dali
+    float x1 = 0.5f, x2 = 0.77f, x3= 0.99f;
+    System.out.println("20.22+7(0.5)/25+0.922(0.5))+70+0.5(0.5)"); //copy this for the substitute process
+    System.out.println("Final Answer: " +((20.22f+7*x1)/25+0.922f*x1+70+0.5f*x1)); 
+    System.out.println("\nSolve for:x= 0.77\nf(x)=((20.22+7x)/25+0.922x)+70+0.5x"); // shortest way
+    System.out.println("20.22+7(0.77)/25+0.922(0.77))+70+0.5(0.77)");
+    System.out.println("Final Answer: " +((20.22f+7*x2)/25+0.922f*x2+70+0.5f*x2));
+    System.out.println("\nSolve for:x= 0.99\nf(x)=((20.22+7x)/25+0.922x)+70+0.5x\n20.22+7(0.99)/25+0.922(0.99))+70+0.5(0.99)");
+    System.out.println("Final Answer: " +((20.22f+7*x3)/25+0.922f*x3+70+0.5f*x3));
+    System.out.println("\nf2(x)= 0.6/(x+9.77)\n" + "Given that f(x)/f2(x)\nwith these values:");
+    System.out.println("x=2.8\n" + "x=9.88\n" + "x=5.112\n\nSolution:");
+    System.out.println("f(x)/f2(x)=((20.22+7x)/25+0.922x)+70+0.5x/0.6/(x+9.77)");
+    float x01 = 2.8f, x02 = 9.88f, x03 = 5.112f;
+    System.out.println("\nSolve for:x= 2.8\nf(x)/f2(x)=((20.22+7(2.8)/25+0.922(2.8))+70+0.5(2.8)/0.6/(2.8+9.77)");
+    System.out.println("f(x): " +((20.22f+7*x01)/25+0.922f*x01+70+0.5f*x01));
+    System.out.println("f2(x): " +(0.6f/(x01+9.77f)));
+    float f = 75.5744f, f2= 0.047732696f, f3= 87.624565f, f4= 0.03053435f, f5= 79.50942f, f6= 0.040317163f; 
+    System.out.println("Final Answer:f(x)/f2(x)= "+f/f2);
+    System.out.println("\nSolve for:x= 9.88\nf(x)/f2(x)=((20.22+7(9.88)/25+0.922(9.88))+70+0.5(9.88)/0.6/(9.88+9.77)");
+    System.out.println("f(x): " +((20.22f+7*x02)/25+0.922f*x02+70+0.5f*x02));
+    System.out.println("f2(x): " +(0.6f/(x02+9.77f)));
+    System.out.println("Final Answer: f(x)/f2(x)= "+f3/f4);
+    System.out.println("\nSolve for:x= 5.112\nf(x)/f2(x)=((20.22+7(5.112)/25+0.922(5.112))+70+0.5(5.112)/0.6/(5.112+9.77)");
+    System.out.println("f(x): " +((20.22f+7*x03)/25+0.922f*x03+70+0.5f*x03));
+    System.out.println("f2(x): " +(0.6f/(x03+9.77f)));
+    System.out.println("Final Answer: f(x)/f2(x)= "+f5/f6);
+    
