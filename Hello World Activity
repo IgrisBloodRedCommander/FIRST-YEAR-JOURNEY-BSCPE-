@@ -1,0 +1,4 @@
+ String hello = "Hello, WOrld by:";
+      
+       String Firstname = "Lex Edrick";
+       System.out.println(hello + Firstname);
