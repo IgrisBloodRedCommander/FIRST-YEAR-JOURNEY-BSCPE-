@@ -1,0 +1,50 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package test.cal;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author User
+ */
+public class TESTCAL {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       String val1 = JOptionPane.showInputDialog("Input First Value:");
+       String val2 = JOptionPane.showInputDialog("Input Second Value:");
+        double operation = Double.parseDouble(JOptionPane.showInputDialog("Input Desired Operation\nNote that:\n 0 for Additionn\n1 for Subtraction\n2 for Multiplication\n3 for Division"));
+
+               
+       {
+         double input1 = Double.parseDouble(val1);
+         double input2 = Double.parseDouble(val2);
+         double add = input1 + input2;
+         double subtract = input1 - input2;
+         double multiply = input1 * input2;
+         double divide = input1 / input2;
+         {if (operation==0)
+         JOptionPane.showMessageDialog(null,"Answer: "+ add);} 
+         {if (operation==1) 
+         JOptionPane.showMessageDialog(null,"Answer: "+ subtract);}
+         {if (operation==2) 
+         JOptionPane.showMessageDialog(null,"Answer: "+ multiply);}
+         {
+         if (operation==3) 
+         JOptionPane.showMessageDialog(null,"Answer: "+ divide);
+         if (input2==0)
+         JOptionPane.showMessageDialog(null,"Math Error");
+         
+         
+         
+        
+         } 
+             
+             } 
+    }
+    
+}
