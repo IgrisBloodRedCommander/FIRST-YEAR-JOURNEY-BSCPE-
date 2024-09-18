@@ -1,144 +1,168 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package test.ai;
-
-import java.util.Scanner;
-
-/**
- *
- * @author User
- */
-public class TestAi {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Scanner i = new Scanner(System.in);
+ Scanner i = new Scanner(System.in);
 
         String name = "";
 
-        // Ask for the user's name
         while (name.isBlank()) {
             System.out.println("Input Your Name Before You Enter Our Shop:");
             name = i.nextLine();
         }
-
-        // Greet based on the user's name
         if (name.equalsIgnoreCase("Voldemort")) {
-            System.out.println("HE WHO MUST NOT BE NAMED! Welcome..I guess, To Hogwarts' Bookstore. \nINPUT ANY SPELL TO PROCEED:");
+            System.out.println("HE WHO MUST NOT BE NAMED! Welcome..I guess, To Hogwart's Bookstore. \nINPUT ANY SPELL TO PROCEED:");
         } else {
-            System.out.println("Welcome to Hogwarts' Bookstore, " + name + "!\nINPUT ANY SPELL TO PROCEED:");
+            System.out.println("\nWelcome to Hogwart's Bookstore," + name + "!\nINPUT ANY SPELL FIRST:");
         }
-
         String spell3 = i.nextLine().toLowerCase();
 
         switch (spell3) {
-            case "crucio":
-            case "avada kedavra":
-            case "imperio":
-                System.out.println("Woah, " + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books:");
+
+            case "crucio": {
+                System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
+            }
+            break;
+
+            case "avada kedavra": {
+                System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
+            }
+            break;
+
+            case "imperio": {
+                System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
+            }
+            break;
+            default: {
+                System.out.println("Woah," + name + ". NICE SPELL YOU GOT THERE! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
                 break;
-            default:
-                System.out.println("Woah, " + name + ". NICE SPELL YOU GOT THERE! Anyways here's the list of the books:");
-                break;
+            }
         }
-
-        // Book prices
-        int book1 = 800, book2 = 950, book3 = 750, book4 = 500, book5 = 750, book6 = 820, book7 = 1200;
-
-        // Variable to store total cost
-        int total = 0;
-        boolean keepShopping = true;
-
-        // Main loop to keep selecting books and adding up to the total
-        while (keepShopping) {
-            // Display books
-            System.out.println("Book 1: Harry Potter and the Sorcerer's Stone\nPrice: Php " + book1);
-            System.out.println("Book 2: Harry Potter and the Chamber of Secrets\nPrice: Php " + book2);
-            System.out.println("Book 3: Harry Potter and the Prisoner of Azkaban\nPrice: Php " + book3);
-            System.out.println("Book 4: Harry Potter and the Goblet of Fire\nPrice: Php " + book4);
-            System.out.println("Book 5: Harry Potter and the Order of the Phoenix\nPrice: Php " + book5);
-            System.out.println("Book 6: Harry Potter and the Half-Blood Prince\nPrice: Php " + book6);
-            System.out.println("Book 7: Harry Potter and the Deathly Hallows\nPrice: Php " + book7);
-
-            // Ask the user to choose a book
-            System.out.println("CHOOSE A BOOK ACCORDING TO ITS NUMBER (1-7):");
-            int choose = i.nextInt();
-
-            int bookPrice = 0;
-            switch (choose) {
-                case 1:
-                    bookPrice = book1;
-                    System.out.println("You've chosen: Harry Potter and the Sorcerer's Stone");
-                    break;
-                case 2:
-                    bookPrice = book2;
-                    System.out.println("You've chosen: Harry Potter and the Chamber of Secrets");
-                    break;
-                case 3:
-                    bookPrice = book3;
-                    System.out.println("You've chosen: Harry Potter and the Prisoner of Azkaban");
-                    break;
-                case 4:
-                    bookPrice = book4;
-                    System.out.println("You've chosen: Harry Potter and the Goblet of Fire");
-                    break;
-                case 5:
-                    bookPrice = book5;
-                    System.out.println("You've chosen: Harry Potter and the Order of the Phoenix");
-                    break;
-                case 6:
-                    bookPrice = book6;
-                    System.out.println("You've chosen: Harry Potter and the Half-Blood Prince");
-                    break;
-                case 7:
-                    bookPrice = book7;
-                    System.out.println("You've chosen: Harry Potter and the Deathly Hallows");
-                    break;
-                default:
-                    System.out.println("INVALID INPUT: CHOOSE ONLY FROM '1-7'");
+        boolean sigePa = true;
+        while (sigePa) { System.out.println("Input 1 To Proceed");
+            int loop = i.nextInt();
+            switch(loop) { 
+                case 1: 
+            int book1 = 800, book2 = 950, book3 = 750, book4 = 500, book5 = 750, book6 = 820, book7 = 1200;
+            int total = 0;
+            boolean keepShopping = true;
+            while (keepShopping) {
+                System.out.println("CHOOSE A BOOK ACCORDING TO ITS NUMBER (1-7):");
+                int choose = i.nextInt();
+                int bookPrice = 0;
+                switch (choose) {
+                    case 1:
+                        bookPrice = book1;
+                        System.out.println("You've chosen: Harry Potter and the Sorcerer's Stone\nPrice: " + book1);
+                        break;
+                    case 2:
+                        bookPrice = book2;
+                        System.out.println("You've chosen: Harry Potter and the Chamber of Secrets\nPrice: " + book2);
+                        break;
+                    case 3:
+                        bookPrice = book3;
+                        System.out.println("You've chosen: Harry Potter and the Prisoner of Azkaban\nPrice: " + book3);
+                        break;
+                    case 4:
+                        bookPrice = book4;
+                        System.out.println("You've chosen: Harry Potter and the Goblet of Fire\nPrice: " + book4);
+                        break;
+                    case 5:
+                        bookPrice = book5;
+                        System.out.println("You've chosen: Harry Potter and the Order of the Phoenix\nPrice: " + book5);
+                        break;
+                    case 6:
+                        bookPrice = book6;
+                        System.out.println("You've chosen: Harry Potter and the Half-Blood Prince\nPrice: " + book6);
+                        break;
+                    case 7:
+                        bookPrice = book7;
+                        System.out.println("You've chosen: Harry Potter and the Deathly Hallows\nPrice: " + book7);
+                        break;
+                    default:
+                        System.out.println("INVALID INPUT: CHOOSE ONLY FROM '1-7'");
+                        continue;
+                }
+                System.out.println("QUANTITY [MAX: 5]:");
+                int quantity = i.nextInt();
+                if (quantity < 1 || quantity > 5) {
+                    System.out.println("INVALID QUANTITY, PLEASE TRY AGAIN");
                     continue;
+                }
+                total += bookPrice * quantity;
+                System.out.println("This is your current total payment: Php " + total + "");
+                System.out.println("Do you want to add another book?\nInput '1' for Yes, '0' for No:");
+                int add = i.nextInt();
+                if (add>1 || add<0){System.out.println("PLEASE INPUT 1 OR 0 ONLY:"); total=0; keepShopping=true; continue;}
+                if (add == 0) {
+                    keepShopping = false;
+                }
             }
+            System.out.println("Final total cost: Php " + total);
+            System.out.println("\nDo you really want to checkout?\nIf Yes, Input '0' To Proceed Paying:\nTo Re-Pick, Input 1:");
+            float cash = i.nextFloat();
+if (cash==1){sigePa=true; break;}
+        
+            while (cash == 0) {
+                System.out.println("\nAMOUNT TO BE PAID: Php "+total+"\nInput Cash: ");
+                float cash1 = i.nextFloat();
+                float need = total - cash1;
 
-            // Ask for the quantity
-            System.out.println("QUANTITY [MAX: 5]:");
-            int quantity = i.nextInt();
-            if (quantity < 1 || quantity > 5) {
-                System.out.println("INVALID QUANTITY, PLEASE TRY AGAIN");
-                continue;
-            }
+                if (cash1 < total) {
+                    System.out.println("INSUFFICIENT CASH, Transaction failed.");
+                    System.out.println("\nAMOUNT TO BE PAID: Php " + total + "\nYOUR CASH: Php" + cash1);
+                    System.out.println("Add at least greater than or equal to this amount: Php " + need);
+                    System.out.println("Input Cash Here:");
+                    int cash2 = i.nextInt();
+                    float newCash = cash1 += cash2;
+                    float change = newCash - total;
+                    float need2 = need - cash2;
+                    if (cash2 >= need) {
+                        System.out.println("Payment Successful. Your change is Php " + change);
+                        System.out.println("\nThank you for purchasing, " + name + "!");
+                        System.out.println("Do You Want To Buy Again?\n\nIf Yes, Input 1\nTo Exit, Input 0");
+                        break;
+                    } else {
+                        System.out.println("You Still Need: Php " + need2);
+                        continue;
+                    }
+                } else {
+                    float change = cash1 - total;
+                    System.out.println("\nPayment Successful. Your change is Php " + change);
+                    System.out.println("Thank you for purchasing, " + name + "!");
+                    System.out.println("\nDo You Want To Shop Again?\nIf Yes, Input 1\nTo Exit, Input 0");
 
-            // Add the selected book's price to the total
-            total += bookPrice * quantity;
-            System.out.println("This is your current total: Php " + total);
-
-            // Ask if they want to buy another book
-            System.out.println("Do you want to add another book?\nInput '1' for Yes, '0' for No:");
-            int addAnother = i.nextInt();
-            if (addAnother == 0) {
-                keepShopping = false;
-            }
-        }
-
-        // Checkout process
-        System.out.println("Final total cost: Php " + total);
-        System.out.println("Input Cash: ");
-        int cash = i.nextInt();
-
-        if (cash < total) {
-            System.out.println("INSUFFICIENT CASH, Transaction failed."); 
-        } else {
-            int change = cash - total;
-            System.out.println("Payment Successful. Your change is Php " + change);
-            System.out.println("Thank you for shopping at Hogwarts' Bookstore, " + name + "!");
-        }
-
-        i.close();
-    }
-}
-    
-    
-
+                }
+                
+                break;
+            } int anaderOne = i.nextInt();
+                if (anaderOne == 1) {
+                    sigePa = true; break;
+                } if (anaderOne == 0) {
+                    sigePa = false; System.out.println("Thank You, "+ name+"! Please Come Again."); break;
+                }i.close();
+    }}
