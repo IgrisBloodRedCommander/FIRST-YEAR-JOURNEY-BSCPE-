@@ -17,53 +17,53 @@
 
             case "crucio": {
                 System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
-                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
-                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
-                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
-                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
-                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
-                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
-                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows");
             }
             break;
 
             case "avada kedavra": {
                 System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
-                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
-                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
-                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
-                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
-                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
-                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
-                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows");
             }
             break;
 
             case "imperio": {
                 System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
-                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
-                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
-                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
-                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
-                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
-                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
-                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows");
             }
             break;
             default: {
                 System.out.println("Woah," + name + ". NICE SPELL YOU GOT THERE! Anyways here's the list of the books: \n"
-                        + "        Book 1: Harry Potter and the Sorcerer's Stone: Harry discovers he's a wizard and attends Hogwarts, where he confronts the dark wizard Voldemort for the first time.\n"
-                        + "        Book 2: Harry Potter and the Chamber of Secrets: Harry uncovers the mystery of the Chamber of Secrets and battles a deadly serpent.\n"
-                        + "        Book 3: Harry Potter and the Prisoner of Azkaban: Harry learns about his godfather Sirius Black and uncovers truths about his parents' past.\n"
-                        + "        Book 4: Harry Potter and the Goblet of Fire: Harry is unexpectedly entered into a dangerous magical tournament, leading to Voldemort's return.\n"
-                        + "        Book 5: Harry Potter and the Order of the Phoenix: Harry forms a secret group to fight Voldemort while battling the oppressive Ministry of Magic.\n"
-                        + "        Book 6: Harry Potter and the Half-Blood Prince: Harry discovers secrets about Voldemort's past and the keys to his possible defeat.\n"
-                        + "        Book 7: Harry Potter and the Deathly Hallows: Harry embarks on a quest to destroy Voldemort's Horcruxes, leading to a final battle at Hogwarts.");
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone \n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire: \n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince:\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows ");
                 break;
             }
         }
         boolean sigePa = true;
-        while (sigePa) { System.out.println("Input 1 To Proceed");
+        while (sigePa) { System.out.println("Input 1 To Proceed:");
             int loop = i.nextInt();
             switch(loop) { 
                 case 1: 
@@ -115,9 +115,9 @@
                 }
                 total += bookPrice * quantity;
                 System.out.println("This is your current total payment: Php " + total + "");
-                System.out.println("Do you want to add another book?\nInput '1' for Yes, '0' for No:");
+                System.out.println("\nDo you want to add another book?\nInput '1' for Yes, '0' for No:");
                 int add = i.nextInt();
-                if (add>1 || add<0){System.out.println("PLEASE INPUT 1 OR 0 ONLY:"); total=0; keepShopping=true; continue;}
+                if (add>1 || add<0){System.out.println("PLEASE INPUT 1 OR 0 ONLY:");  keepShopping=true; continue;}
                 if (add == 0) {
                     keepShopping = false;
                 }
@@ -133,8 +133,8 @@ if (cash==1){sigePa=true; break;}
                 float need = total - cash1;
 
                 if (cash1 < total) {
-                    System.out.println("INSUFFICIENT CASH, Transaction failed.");
-                    System.out.println("\nAMOUNT TO BE PAID: Php " + total + "\nYOUR CASH: Php" + cash1);
+                    System.out.println("\nINSUFFICIENT CASH, Transaction failed.");
+                    System.out.println("AMOUNT TO BE PAID: Php " + total + "\nYOUR CASH: Php " + cash1);
                     System.out.println("Add at least greater than or equal to this amount: Php " + need);
                     System.out.println("Input Cash Here:");
                     int cash2 = i.nextInt();
@@ -142,9 +142,9 @@ if (cash==1){sigePa=true; break;}
                     float change = newCash - total;
                     float need2 = need - cash2;
                     if (cash2 >= need) {
-                        System.out.println("Payment Successful. Your change is Php " + change);
-                        System.out.println("\nThank you for purchasing, " + name + "!");
-                        System.out.println("Do You Want To Buy Again?\n\nIf Yes, Input 1\nTo Exit, Input 0");
+                        System.out.println("\nPayment Successful. Your change is Php " + change);
+                        System.out.println("Thank you for purchasing, " + name + "!");
+                        System.out.println("\nDo You Want To Buy Again?\nIf Yes, Input 1:\nTo Exit, Input 0:");
                         break;
                     } else {
                         System.out.println("You Still Need: Php " + need2);
@@ -152,7 +152,7 @@ if (cash==1){sigePa=true; break;}
                     }
                 } else {
                     float change = cash1 - total;
-                    System.out.println("\nPayment Successful. Your change is Php " + change);
+                    System.out.println("\n\nPayment Successful. Your change is Php " + change);
                     System.out.println("Thank you for purchasing, " + name + "!");
                     System.out.println("\nDo You Want To Shop Again?\nIf Yes, Input 1\nTo Exit, Input 0");
 
