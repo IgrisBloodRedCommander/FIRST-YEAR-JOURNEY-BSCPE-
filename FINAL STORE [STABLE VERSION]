@@ -1,0 +1,252 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package edit.natin;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author User
+ */
+public class EditNatin {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner i = new Scanner(System.in);
+        String name = "";
+
+        while (name.isBlank()) {
+            System.out.println("Input Your Name Before You Enter Our Shop:");
+            name = i.nextLine();
+        }
+        if (name.equalsIgnoreCase("Voldemort")) {
+            System.out.println("HE WHO MUST NOT BE NAMED! Welcome..I guess, To Hogwart's Bookstore. \nINPUT ANY SPELL TO PROCEED:");
+        } else {
+            System.out.println("\nWelcome to Hogwart's Bookstore," + name + "!\nINPUT ANY SPELL FIRST:");
+        }
+        String spell3 = i.nextLine().toLowerCase();
+
+        switch (spell3) {
+
+            case "crucio": {
+                System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows");
+            }
+            break;
+
+            case "avada kedavra": {
+                System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows");
+            }
+            break;
+
+            case "imperio": {
+                System.out.println("Woah," + name + ". AN UNFORGIVABLE SPELL! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone\n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire\n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows");
+            }
+            break;
+            default: {
+                System.out.println("Woah," + name + ". NICE SPELL YOU GOT THERE! Anyways here's the list of the books: \n"
+                        + "        Book 1: Harry Potter and the Sorcerer's Stone \n"
+                        + "        Book 2: Harry Potter and the Chamber of Secrets\n"
+                        + "        Book 3: Harry Potter and the Prisoner of Azkaban\n"
+                        + "        Book 4: Harry Potter and the Goblet of Fire: \n"
+                        + "        Book 5: Harry Potter and the Order of the Phoenix\n"
+                        + "        Book 6: Harry Potter and the Half-Blood Prince:\n"
+                        + "        Book 7: Harry Potter and the Deathly Hallows ");
+                break;
+            }
+        }
+        boolean sigePa = true;
+        int num = 0;
+        while (sigePa) {
+            System.out.println("Input 1 To Proceed:\nInput 0 To Exit:\nInput 2 if you want to change your Name:");
+
+            boolean mali = false;
+            while (!i.hasNextInt()) {
+                mali = false;
+                System.out.println("ERRROR: Please Input 0, 1, or 2 Only\nInput 1 To Proceed:\nInput 0 To Exit:\nInput 2 if you want to change your Name:");
+                i.next();
+            }
+            int loop = i.nextInt();
+            if (loop == 0) {
+                mali = false;
+                System.out.println("Thank You, " + name + "! Please Come Again.");
+                break;
+            }
+            if (loop == 2) {
+                System.out.println("Input New Name Here: ");
+                i.nextLine();
+                name = "";
+                while (name.isBlank()) {
+
+                    name = i.nextLine();
+                }
+                System.out.println("Hello, " + name + "!");
+                continue;
+            }
+
+            switch (loop) {
+                case 1:
+                    int book1 = 800,
+                     book2 = 950,
+                     book3 = 750,
+                     book4 = 500,
+                     book5 = 750,
+                     book6 = 820,
+                     book7 = 1200;
+                    int total = 0;
+                    boolean keepShopping = true;
+
+                    while (keepShopping) {
+                        System.out.println("CHOOSE A BOOK ACCORDING TO ITS NUMBER (1-7):");
+                        while (!i.hasNextInt()) {
+                            mali = false;
+                            System.out.println("ERRROR: Please Input 1-7 Only");
+                            i.next();
+                        }
+                        int choose = i.nextInt();
+                        int bookPrice = 0;
+
+                        switch (choose) {
+                            case 1:
+                                bookPrice = book1;
+                                System.out.println("You've chosen: Harry Potter and the Sorcerer's Stone\nPrice: " + book1);
+                                break;
+                            case 2:
+                                bookPrice = book2;
+                                System.out.println("You've chosen: Harry Potter and the Chamber of Secrets\nPrice: " + book2);
+                                break;
+                            case 3:
+                                bookPrice = book3;
+                                System.out.println("You've chosen: Harry Potter and the Prisoner of Azkaban\nPrice: " + book3);
+                                break;
+                            case 4:
+                                bookPrice = book4;
+                                System.out.println("You've chosen: Harry Potter and the Goblet of Fire\nPrice: " + book4);
+                                break;
+                            case 5:
+                                bookPrice = book5;
+                                System.out.println("You've chosen: Harry Potter and the Order of the Phoenix\nPrice: " + book5);
+                                break;
+                            case 6:
+                                bookPrice = book6;
+                                System.out.println("You've chosen: Harry Potter and the Half-Blood Prince\nPrice: " + book6);
+                                break;
+                            case 7:
+                                bookPrice = book7;
+                                System.out.println("You've chosen: Harry Potter and the Deathly Hallows\nPrice: " + book7);
+                                break;
+                            default:
+                                System.out.println("INVALID INPUT: CHOOSE ONLY FROM '1-7'");
+                                continue;
+                        }
+                        System.out.println("QUANTITY [MAX: 5]:");
+                        while (!i.hasNextInt()) {
+                            mali = false;
+                            System.out.println("ERRROR: Please Input 1-5 Only");
+                            i.next();
+                        }
+                        int quantity = i.nextInt();
+                        if (quantity < 1 || quantity > 5) {
+                            System.out.println("INVALID QUANTITY, PLEASE TRY AGAIN");
+                            continue;
+                        }
+                        total += bookPrice * quantity;
+                        System.out.println("This is your current total payment: Php " + total + "");
+                        System.out.println("\nDo you want to add another book?\nInput '1' for Yes, '0' for No:");
+                        while (!i.hasNextInt()) {
+                            mali = false;
+                            System.out.println("ERRROR: Please Input 0 or 1 Only");
+                            i.next();
+                        }
+                        int add = i.nextInt();
+                        if (add > 1 || add < 0) {
+                            System.out.println("PLEASE INPUT 1 OR 0 ONLY:");
+                            keepShopping = true;
+                            continue;
+                        }
+                        if (add == 0) {
+                            keepShopping = false;
+                        }
+                    }
+                    System.out.println("Final total cost: Php " + total);
+                    System.out.println("\nDo you really want to checkout?\nIf Yes, Input '0' To Proceed Paying:\nTo Re-Pick, Input 1:");
+                    while (!i.hasNextInt()) {
+                        mali = false;
+                        System.out.println("ERRROR: Please Input 1 or 0");
+                        i.next();
+                    }
+                    while (!i.hasNextInt()) {
+                        mali = false;
+                        System.out.println("ERRROR: Please Input 1-7 Only");
+                        i.next();
+                    }
+                    float cash = i.nextFloat();
+                    if (cash == 1) {
+                        sigePa = true;
+                        break;
+                    }
+
+                    while (cash == 0) {
+                        System.out.println("\nAMOUNT TO BE PAID: Php " + total + "\nInput Cash: ");
+                        while (!i.hasNextFloat()) {
+                            System.out.println("ERROR: Please Input Numerical Values Only\nAMOUNT TO BE PAID: Php " + total + "\nInput Cash: ");
+                            i.next();
+                        }
+
+                        float cashInput = i.nextFloat(); // User's input cash
+                        if (cashInput >= total) {
+                            float change = cashInput - total;
+                            System.out.println("\nPayment Successful. Your change is Php " + change);
+                            System.out.println("Thank you for purchasing, " + name + "!\nInput 1 to buy again:\nInput 0 to EXIT:");
+                            break;
+                        } else {
+                            float remaining = total - cashInput;
+                            System.out.println("INSUFFICIENT CASH. You still need Php " + remaining);
+                            total = (int) remaining;
+                        }
+                    }
+                    while (!i.hasNextInt()) {
+                        mali = false;
+                        System.out.println("ERRROR: Please Input 1 or 0 Only");
+                        i.next();
+                    }
+                    int anaderOne = i.nextInt();
+                    if (anaderOne == 1) {
+                        sigePa = true;
+                        break;
+                    }
+                    if (anaderOne == 0) {
+                        sigePa = false;
+                        System.out.println("Thank You, " + name + "! Please Come Again.");
+                        break;
+                    }
+                    i.close();
+            }
+        }
+    }
+
+}
