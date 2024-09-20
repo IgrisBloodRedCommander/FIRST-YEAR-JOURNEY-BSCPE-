@@ -217,7 +217,7 @@ public class EditNatin {
                             i.next();
                         }
 
-                        float cashInput = i.nextFloat(); // User's input cash
+                        float cashInput = i.nextFloat(); 
                         if (cashInput >= total) {
                             float change = cashInput - total;
                             System.out.println("\nPayment Successful. Your change is Php " + change);
